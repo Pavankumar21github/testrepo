@@ -4,7 +4,8 @@ import com.parasoft.interfaces.IConvertor;
 
 public class Convertor implements IConvertor {
     public String convertToString(int a) {
-        return "parasoftcn: " + a;
+        return " " + a;
+        return String.valueOf(a);
     }
 
     @Override
